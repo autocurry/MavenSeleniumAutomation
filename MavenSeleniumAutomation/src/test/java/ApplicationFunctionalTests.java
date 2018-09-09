@@ -60,6 +60,7 @@ public class ApplicationFunctionalTests {
 	public void Teardown()
 	{
 		System.out.println("inside after method test");
+		_driver.quit();
 	}
 
 }
