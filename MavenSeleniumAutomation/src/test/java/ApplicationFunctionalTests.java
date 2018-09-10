@@ -40,18 +40,13 @@ public class ApplicationFunctionalTests {
 	
 	@BeforeTest
 	public void Init()
-	{
-		
+	{	
 		
 		System.out.println("inside before method test");
 		
-		System.setProperty("webdriver.gecko.driver","C:\\Tools\\firefoxdriver\\geckodriver.exe");
-		 
+		System.setProperty("webdriver.gecko.driver","C:\\Tools\\firefoxdriver\\geckodriver.exe");		 
 		_driver = new FirefoxDriver();
-		_driver.get("http://www.google.com");
-		
-		
-		
+		_driver.get("http://www.google.com");			
 		
 		
 	}
